@@ -1,0 +1,230 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1200px) {
+    .row{
+        padding: 0 2%;
+    }
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .plan-box{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .para{
+        width: 85%;
+    }
+    .steps-box img{
+        width: 50%;   
+    }
+    .work-steps{
+        margin-bottom: 30px;
+    }
+    .work-steps:last-of-type{
+        margin-bottom: 50px;
+    }
+    .small-icon{
+        font-size: 60%;
+        width: 15px;
+        margin-right: 10px;
+    }
+    .city-feature{
+        font-size: 90%;
+    }
+    .plan-box{
+        width: 100%;
+    }
+    .plan-box div{
+        padding: 15px 10px;
+    }
+    .plan-price span{
+        font-size: 250%;
+    }
+    .plan-box ul li{
+        font-size: 90%;
+    }
+    .contact-form{
+        width: 80%;
+    }
+    /* footer .col:first-child{
+        width: 60%;
+    }
+    footer .col:last-child{
+        width: 40%;
+    } */
+}
+@media screen and (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    .row, .hero-text-box{
+        padding: 0 4%;
+    }
+    .sticky{
+        box-shadow: 0 2px 2px #e67e22;
+    }
+    .main-nav{
+        display: none;
+        position: absolute;
+        top: 10%;
+        right: 3%;
+        z-index: 2000;
+    }
+    .sticky .main-nav{
+        margin-top: 70px;
+    }
+    .main-nav li{
+        display: block;
+        margin: 10px 0 0 0;
+        padding: 10px 25px;
+        text-align: center;
+        border: 1px solid #e67e22;
+        background-color: #e67e22;
+        border-radius: 20px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        font-size: 120%;
+        border-bottom: none;
+        transition: all 0.5s;
+    }
+    .main-nav li:hover,
+    .main-nav li:active{
+        border: 1px solid #af5404;
+        background-color: #af5404;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+    color: #fff;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    .hero-text-box h1{
+        font-size: 180%;
+    }
+    section h2{
+        margin-bottom: 30px;
+        font-size: 160%;
+    }
+    section h2::after{
+        margin-top: 15px;
+    }
+    .para{
+        width: 100%;
+    }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .box{
+        /* width: 80%; */
+        margin: 0 auto 4% auto;
+    }
+    .box h3{
+        text-align: center;
+    }
+    .box i{
+        display: block;
+        text-align: center;
+    }
+    .meals li{
+        width: 50%;
+    }
+    .steps-box:first-child{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .steps-box img{
+        width: 40%;   
+    }
+    .work-steps div{
+        padding: 0.8% 1.8%;
+        margin-right: 2%;
+    }
+    .work-steps p{
+        padding-top: 8px;
+    }
+    .btn-app img{
+        width: 30%;
+    }
+    blockquote{
+        margin-bottom: 35px;
+    }
+    .plan-box ul{
+        padding: 0 25px;
+    }
+    .small-icon{
+        font-size: 80%;
+        width: 20px;
+        margin-right: 20px;
+    }
+    .footer-navs, .social-icons{
+        text-align: center;
+    }
+    .sign-up-modal{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 15px;
+    }
+    section{
+        padding: 25px 0;
+    }
+    .hero-text-box h1{
+        font-size: 150%;
+    }
+    .hero-text-box .btn-full{
+        margin-bottom: 25px;
+    }
+    section h2{
+        font-size: 130%;
+    }
+    .meals li{
+        width: 100%;
+    }
+    .work-steps p{
+        padding-top: 0;
+    }
+    .btn-app img{
+        height: 40px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    footer .col{
+        width: 50%;
+    }
+    .footer-navs li, .social-icons li{
+        display: block;
+        padding-bottom: 25px;
+    }
+    .footer-navs{
+        text-align: left;
+    }
+    .social-icons{
+        text-align: right;
+    }
+    .sign-up-modal{
+        width: 95%;
+        padding: 10px 2%;
+    }
+    .title span{
+        font-size: 18px;
+    }
+}

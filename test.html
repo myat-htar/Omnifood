@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            width: 100%;
+            list-style: none;
+        }
+        li{
+            float: left;
+            width: 25%;
+        }
+        figure{
+            position: relative;
+            width: 100%;
+            background-color: #000;
+            overflow: hidden;
+        }
+        img{
+            opacity: 0.7;
+            width: 100%;
+            -webkit-transform: scale(1.15);
+            -ms-transform: scale(1.15);
+            transform: scale(1.15);
+        }
+        img:hover{
+            /* -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05); */
+        }
+        figure:hover img{
+            opacity: 1;
+            -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+        figure:hover .meal-name{
+            opacity: 1;
+        }
+        .meal-name{
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 15px;
+            color: white;
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <figure>
+                <img src="img/1.jpg" alt="">
+                <div class="meal-name">Korean bibimbap</div>
+            </figure>
+            
+        </li>
+        <li>
+            <figure>
+                <img src="img/2.jpg" alt="">
+                <div class="meal-name">Pizza</div>
+            </figure>
+        </li>
+    </ul>
+</body>
+</html>

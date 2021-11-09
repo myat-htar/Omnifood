@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.row{
+  width: 1140px;
+  margin: 0 auto;
+}
+.para{
+  background-color: #95d8d8;
+}
+/* relevant styles */
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  
+}
+    </style>
+</head>
+<body>
+  <section class="para">
+    <div class="row">
+      <h2>Para</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in quae minima vel veritatis dignissimos at officiis repellendus perferendis explicabo.</p>
+      </div>
+      <div class="col span-1-of-3">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsa magnam ducimus enim nisi itaque repellat aperiam at, autem modi.</p>
+      </div>
+      <div class="col span-1-of-3">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias labore sit rerum placeat cum perspiciatis amet tenetur consequuntur voluptatum ipsam.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
